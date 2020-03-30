@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vAlu
-Z0 !s110 1585545574
+Z0 !s110 1585560076
 !i10b 1
-!s100 :JGkTDF`HT_8`RkQQ:W<^3
-IbZ`n=5=[>m:@PBzDbcI;[3
+!s100 mc>=3Xa4gPJ6YFF13JQJz1
+IioQ>e<?RD4ZK3L:dDIze_1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU
-w1585544328
+w1585551114
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
 L0 6
@@ -23,7 +23,7 @@ Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-!s108 1585545573.000000
+!s108 1585560075.000000
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v|
 !s101 -O0
@@ -33,11 +33,11 @@ n@alu
 vAlu_testbench
 R0
 !i10b 1
-!s100 9jh=6f:F:e_b?FPGmPDS>1
-IC_2gXi3S=DGmSU^VdoN012
+!s100 =H?TTPOM;ck;h[Mn?lCf80
+IHObO87d9`^kjhgozEAQX]2
 R1
 R2
-w1585545568
+w1585559031
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
 L0 2
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-Z5 !s108 1585545574.000000
+Z5 !s108 1585560076.000000
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt|
 !s101 -O0
@@ -55,11 +55,11 @@ n@alu_testbench
 vParity
 R0
 !i10b 1
-!s100 :6a`d[5PojFZ:QfW`a[lc1
-I8ZfA4bN31P;g`Bb8CchHi0
+!s100 HXOg9<[eW2mCcfc00jKQ01
+IS2BCiaNeVe?`OMzj;JzV=1
 R1
 R2
-w1585544738
+w1585560073
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity.v
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity.v
 L0 6
@@ -74,3 +74,25 @@ R5
 !i113 1
 R4
 n@parity
+vParity_8bit
+R0
+!i10b 1
+!s100 fN][cSEYZ7[OTdo5Iz99e1
+I5j@IRI]QTGczG>]:L`oQ73
+R1
+R2
+w1585557919
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v|
+!s101 -O0
+!i113 1
+R4
+n@parity_8bit
