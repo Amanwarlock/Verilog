@@ -1,0 +1,10 @@
+C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotl.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}}

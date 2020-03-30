@@ -1,0 +1,32 @@
+
+module Alu_testbench();
+
+parameter DATA_WIDTH = 256;
+
+reg clk;
+reg [1:0] opcode;
+reg [DATA_WIDTH-1:0] a_in, b_in;
+wire [DATA_WIDTH-1:0] alu_out;
+
+Alu #(.DATA_WIDTH(DATA_WIDTH)) alu(
+	.clk(clk),
+	.opcode(opcode),
+	.A_in(a_in),
+	.B_in(b_in),
+	.Alu_out(alu_out)
+);
+
+always #5 clk = ~clk;
+
+initial begin
+
+clk = 0;
+
+$monitor($time, "Opcode = %b, A = %b, B = %b, Alu Out = %b, Alu Out = %d");
+
+#5 opcode = 2'b00; a_in = 256'b10101100; b_in = 256'b10101100;
+#5 $finish;
+
+end
+
+endmodule
