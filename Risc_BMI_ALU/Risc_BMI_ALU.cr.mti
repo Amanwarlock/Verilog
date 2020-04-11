@@ -19,6 +19,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Mux256x1
 
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Popcount
+
+Top level modules:
+	Popcount
+
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotl.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotl.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Rotl
@@ -39,6 +46,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	Alu_testbench
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Popcount_32bit
+
+Top level modules:
+	Popcount_32bit
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
