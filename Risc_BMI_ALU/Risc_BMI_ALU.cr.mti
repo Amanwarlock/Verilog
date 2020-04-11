@@ -5,13 +5,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Parity_8bit
 
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux4x2.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux4x2.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux4x2
-
-Top level modules:
-	Mux4x2
-
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Mux256x1
@@ -40,13 +33,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Alu
 
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Alu_testbench
-
-Top level modules:
-	Alu_testbench
-
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Popcount_32bit
@@ -67,19 +53,5 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	Parity
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux16x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux16x1.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux16x1
-
-Top level modules:
-	Mux16x1
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux2x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux2x1.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux2x1
-
-Top level modules:
-	Mux2x1
 
 } {} {}}

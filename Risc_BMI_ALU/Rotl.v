@@ -10,17 +10,22 @@ module Rotl #(
 	output [DATA_WIDTH-1:0] a_out
 );
 
+parameter WIDTH = DATA_WIDTH - 1;
+
 
 genvar i;
 
-wire [15:0] w;
+Mux256x1 #(.DATA_WIDTH(DATA_WIDTH), .SEL_WIDTH(8)) mux_1(.clk(clk), .enable(enable), .sel(WIDTH - shift_in[7:0]), .a_in(a_in), .y(a_out[DATA_WIDTH-1]));
+Mux256x1 #(.DATA_WIDTH(DATA_WIDTH), .SEL_WIDTH(8)) mux_2(.clk(clk), .enable(enable), .sel(WIDTH - shift_in[7:0]), .a_in({a_in[DATA_WIDTH-2:0],a_in[DATA_WIDTH-1]}), .y(a_out[DATA_WIDTH-2]));
 
-generate for(i = 255; i <= 0; i = i - 16) begin : loop
-	Mux16x1 #(.DATA_WIDTH(16),.SEL_WIDTH(4)) mux(.clk(clk),.A_in(a_in[i: i-16]),.sel(shift_in),.out(w));
+
+generate for(i = 3; i <= DATA_WIDTH; i = i + 1) begin : loop
+	
+	Mux256x1 #(.DATA_WIDTH(DATA_WIDTH), .SEL_WIDTH(8)) mux_3(.clk(clk), .enable(enable), .sel(WIDTH - shift_in[7:0]), .a_in({a_in[DATA_WIDTH-i:0],a_in[DATA_WIDTH-1: DATA_WIDTH-i+1]}), .y(a_out[DATA_WIDTH-i]));
+
 end
 
 endgenerate
-
 
 
 endmodule
