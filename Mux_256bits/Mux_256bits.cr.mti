@@ -1,18 +1,18 @@
-C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v
+C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux_256x1
-** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module Mux_8x1
+
+Top level modules:
+	Mux_8x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_8x1_vt
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt(23): (vlog-2283) Extra semicolon in $unit (global) scope.
 
 
 Top level modules:
-	Mux_256x1
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1_tb.vt
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux_4x1_tb
-
-Top level modules:
-	Mux_4x1_tb
+	Mux_8x1_vt
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -21,12 +21,55 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Mux_64x1
 
-} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux_64x1_tb
+-- Compiling module Mux_256x1_tb
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+
 
 Top level modules:
-	Mux_64x1_tb
+	Mux_256x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_64x1_vt
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	Mux_64x1_vt
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_128x1
+
+Top level modules:
+	Mux_128x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_128x1_vt
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	Mux_128x1_vt
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_32x1
+
+Top level modules:
+	Mux_32x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_32x1_vt
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1_tb.vt(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	Mux_32x1_vt
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -35,26 +78,21 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Mux_16x1
 
-} {} {}} C:/Users/aman/Workspace/Verilog/Mux_2x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_2x1.v
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_16x1_vt
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.vt(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	Mux_16x1_vt
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Mux_2x1
 
 Top level modules:
 	Mux_2x1
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1_tb.vt
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux_2x1_tb
-
-Top level modules:
-	Mux_2x1_tb
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux_16x1_tb
-
-Top level modules:
-	Mux_16x1_tb
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

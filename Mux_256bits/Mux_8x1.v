@@ -1,0 +1,15 @@
+
+module Mux_8x1 (
+			input [7:0] a_in,
+			input [2:0] sel,
+			output out
+		);
+
+	wire [1:0] w;
+	
+	Mux_4x1 m1(.sel(sel[1:0]), .a_in(a_in[3:0]), .out(w[0]));
+	Mux_4x1 m2(.sel(sel[1:0]), .a_in(a_in[7:4]), .out(w[1]));
+	Mux_4x1 m3(.sel({1'b0, sel[2]}), .a_in({2'b00, w}), .out(out));
+	
+
+endmodule

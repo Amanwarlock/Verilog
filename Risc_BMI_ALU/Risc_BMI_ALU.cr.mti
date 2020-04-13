@@ -1,9 +1,37 @@
-C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v
+C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Parity_8bit
 
 Top level modules:
 	Parity_8bit
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Alu_testbench
+
+Top level modules:
+	Alu_testbench
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Popcount_32bit
+
+Top level modules:
+	Popcount_32bit
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Rotr
+
+Top level modules:
+	Rotr
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -25,27 +53,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	Rotl
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Alu
-
-Top level modules:
-	Alu
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Popcount_32bit
-
-Top level modules:
-	Popcount_32bit
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Rotr
-
-Top level modules:
-	Rotr
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

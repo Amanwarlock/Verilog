@@ -1,0 +1,28 @@
+
+
+module Mux8x1_tb();
+
+reg clk;
+reg [2:0]sel;
+reg [7:0] a_in;
+
+wire y;
+
+Mux8x1 mux(.clk(clk), .sel(sel), .a(a_in), .y(y));
+
+always #5 clk = ~clk;
+
+initial begin
+	clk = ~clk;
+	$monitor($time, " A = %b, B = %b, Select = %b, Result = %b", a_in, b_in, sel, y);
+	#5 sel = 3'b000; a_in = 8'b0101_0011;
+	#5 sel = 3'b001;
+	#5 sel = 3'b010;	
+	#5 sel = 3'b011;
+	#5 sel = 3'b100;
+	#5 sel = 3'b101;
+	#5 $finish;
+
+end
+
+endmodule

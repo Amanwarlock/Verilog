@@ -1,0 +1,46 @@
+
+module comparator_tb();
+ 
+  reg [31:0] x;
+  reg [31:0] y;
+  reg xltyin;
+  reg xgtyin;
+  wire xgty,xlty,xety;
+ 
+  initial
+    begin
+      $dumpfile("dump.vcd");
+      $dumpvars;
+    end
+ 
+  initial
+    begin
+
+      x = 32'b0110;
+      y = 32'b1110;
+      xltyin = 1'b0;
+      xgtyin = 1'b0;
+     
+      #10 x = 32'b0111;
+      #10 y = 32'b0110;
+      #10 xgtyin = 1'b1;
+      #10 xgtyin = 1'b0;
+          x = 32'b0100;
+      #10 xltyin = 1'b1;
+      #10 x = 32'b0110;
+      #10 y = 32'b0110;
+      #10 $finish;
+     
+    end
+ 
+  twoN_bitcomparator #(.N(8))u_dut(
+    .xgtyin(xgtyin),
+    .xltyin(xltyin),
+    .x(x),
+    .y(y),
+    .xgty(xgty),
+    .xlty(xlty),
+    .xety(xety)
+  );
+   
+endmodule

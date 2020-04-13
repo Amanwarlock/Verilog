@@ -1,0 +1,8 @@
+C:/Users/aman/Workspace/Verilog/Parity_256bits/Parity_256bits_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Parity_256bits/Parity_256bits_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Parity_256bits_tb
+
+Top level modules:
+	Parity_256bits_tb
+
+} {} {}}

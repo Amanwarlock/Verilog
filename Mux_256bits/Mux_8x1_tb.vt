@@ -1,0 +1,23 @@
+
+module Mux_8x1_vt();
+
+reg [2:0] sel;
+reg [7:0] a_in;
+wire y;
+
+Mux_8x1 mu(.sel(sel), .a_in(a_in), .out(y));
+
+initial begin
+	$monitor($time, " Select = %b, Input = %b, Result = %b ", sel, a_in, y);
+	#5 sel = 3'b000; a_in = 8'b1010_0011;
+	#5 sel = 3'b001;
+	#5 sel = 3'b010;
+	#5 sel = 3'b011;
+	#5 sel = 3'b100;
+	#5 sel = 3'b101;
+	#5 sel = 3'b110;
+	#5 sel = 3'b111;
+	#5 $finish;
+end
+
+endmodule;

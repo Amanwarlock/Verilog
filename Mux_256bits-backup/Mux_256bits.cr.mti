@@ -1,0 +1,73 @@
+C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_4x1_tb
+
+Top level modules:
+	Mux_4x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_256x1
+** Warning: C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	Mux_256x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_64x1
+
+Top level modules:
+	Mux_64x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_256x1_tb
+
+Top level modules:
+	Mux_256x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_2x1_tb
+
+Top level modules:
+	Mux_2x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_2x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_2x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_2x1
+
+Top level modules:
+	Mux_2x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_16x1
+
+Top level modules:
+	Mux_16x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_64x1_tb
+
+Top level modules:
+	Mux_64x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_4x1
+
+Top level modules:
+	Mux_4x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_16x1_tb
+
+Top level modules:
+	Mux_16x1_tb
+
+} {} {}}

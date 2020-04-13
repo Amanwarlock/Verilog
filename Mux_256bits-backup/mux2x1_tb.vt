@@ -1,0 +1,20 @@
+module mux_tb();
+
+reg a_in,b_in,clk,sel;
+
+wire result;
+
+mux2x1 mux(.clk(clk), .sel(sel), .a_in(a_in), .b_in(b_in), .result(y));
+
+always #5 clk = ~clk;
+
+initial begin
+	clk = 0;
+	$monitor($time, " A = %b, B = %b, Select = %b, Result = %b", a_in, b_in, sel, result);
+	#5 sel=1'b0; a_in=1'b0; b_in=1'b1;
+	#5 sel = 1'b1;
+	#5 $finish;
+	
+end
+
+endmodule

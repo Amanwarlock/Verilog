@@ -1,0 +1,72 @@
+C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2x1
+
+Top level modules:
+	Mux2x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Comparator_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Comparator_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module comparator_tb
+
+Top level modules:
+	comparator_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2x1_tb
+** Warning: C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	Mux2x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Gcd.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Gcd.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Gcd
+
+Top level modules:
+	Gcd
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Mux4x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Mux4x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux4x1
+
+Top level modules:
+	Mux4x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Datapath.v {0 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Datapath.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Datapath
+** Error: (vlog-13062) C:/Users/aman/Workspace/Verilog/Gcd/Datapath.v(19): near "reg": A verilog net type keyword cannot be followed by the reg keyword.
+
+
+} {4.0 5.0} {}} C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux8x1
+
+Top level modules:
+	Mux8x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Controller.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Controller.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux8x1_tb
+
+Top level modules:
+	Mux8x1_tb
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Gcd/Comparator.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Gcd/Comparator.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module twoN_bitcomparator
+
+Top level modules:
+	twoN_bitcomparator
+
+} {} {}}

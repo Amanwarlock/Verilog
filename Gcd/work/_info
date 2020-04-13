@@ -1,0 +1,229 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vcomparator_tb
+Z0 !s110 1586770927
+!i10b 1
+!s100 OLWFkBWYTc7T>5`zV:K7[1
+I5T1i?YRL0a0LHADmD?]fe1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/aman/Workspace/Verilog/Gcd
+w1586770549
+8C:/Users/aman/Workspace/Verilog/Gcd/Comparator_tb.vt
+FC:/Users/aman/Workspace/Verilog/Gcd/Comparator_tb.vt
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1586770927.000000
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Comparator_tb.vt|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Comparator_tb.vt|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vController
+R0
+!i10b 1
+!s100 VPIiW4Td;@9_K>5>U0c=30
+I2Y8LDFP<NSPOW_^?NiEmg0
+R1
+R2
+w1586767086
+8C:/Users/aman/Workspace/Verilog/Gcd/Controller.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Controller.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Controller.v|
+!s101 -O0
+!i113 1
+R5
+n@controller
+vDatapath
+!s110 1586769864
+!i10b 1
+!s100 V6l`oD^Z;06:AdCZ0Tm]=3
+IoS6MBU0oAUC=<<oUiab<:1
+R1
+R2
+w1586769217
+8C:/Users/aman/Workspace/Verilog/Gcd/Datapath.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Datapath.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1586769864.000000
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Datapath.v|
+!s101 -O0
+!i113 1
+R5
+n@datapath
+vGcd
+Z6 !s110 1586770926
+!i10b 1
+!s100 QmAef_4B8Ufj[BEUR3CV;0
+I?IbIPzn=QQd2nQ[^B^Q:i3
+R1
+R2
+w1586767091
+8C:/Users/aman/Workspace/Verilog/Gcd/Gcd.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Gcd.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z7 !s108 1586770926.000000
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Gcd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Gcd.v|
+!s101 -O0
+!i113 1
+R5
+n@gcd
+vMux2x1
+R6
+!i10b 1
+!s100 i@Oe7BAcA^PHgRK>SM>810
+IjT]3id;`RUH8DI5Y=^G?P3
+R1
+R2
+w1586768351
+8C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Mux2x1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux2x1
+vMux2x1_tb
+R6
+!i10b 1
+!s100 8TUEhbdCJYlIlPiXQJUfK0
+IH@>TPRY[ODel05V8VELn81
+R1
+R2
+w1586766875
+8C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt
+FC:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Mux2x1_tb.vt|
+!s101 -O0
+!i113 1
+R5
+n@mux2x1_tb
+vMux4x1
+R6
+!i10b 1
+!s100 neG]TiH2ZQMm3Tad[Cj;c1
+IUD8LEdWlzPdZ4lMDP>[Z83
+R1
+R2
+w1586766970
+8C:/Users/aman/Workspace/Verilog/Gcd/Mux4x1.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Mux4x1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Mux4x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Mux4x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux4x1
+vMux8x1
+R0
+!i10b 1
+!s100 OhQd^ehDg_2K@U;bk2:R<3
+IgQoYeUVQeH2caFBz[dJYg3
+R1
+R2
+w1586770600
+8C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Mux8x1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux8x1
+vMux8x1_tb
+R0
+!i10b 1
+!s100 >;0DEI7;j_=8^JdYa70Ja1
+IDc6m[7@Am0l9>DPJLU9aX1
+R1
+R2
+w1586768935
+8C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1_tb.vt
+FC:/Users/aman/Workspace/Verilog/Gcd/Mux8x1_tb.vt
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1_tb.vt|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Mux8x1_tb.vt|
+!s101 -O0
+!i113 1
+R5
+n@mux8x1_tb
+vtwoN_bitcomparator
+R0
+!i10b 1
+!s100 Gj=zIij3In@c7I>i5;JDg3
+IL2iLdLc4lgiJ>6]JnKPFE2
+R1
+R2
+w1586770517
+8C:/Users/aman/Workspace/Verilog/Gcd/Comparator.v
+FC:/Users/aman/Workspace/Verilog/Gcd/Comparator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aman/Workspace/Verilog/Gcd/Comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Gcd/Comparator.v|
+!s101 -O0
+!i113 1
+R5
+ntwo@n_bitcomparator
