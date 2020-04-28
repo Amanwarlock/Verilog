@@ -1,6 +1,7 @@
 
 
 module Mux_16x1 (
+			input clk,			
 			input [15:0] a_in,
 			input [3:0] sel,
 			output out
@@ -8,9 +9,9 @@ module Mux_16x1 (
 
 	wire [1:0] w;
 	
-	Mux_8x1 m1(.sel(sel[2:0]), .a_in(a_in[7:0]), .out(w[0]));
-	Mux_8x1 m2(.sel(sel[2:0]), .a_in(a_in[15:8]), .out(w[1]));
-	Mux_8x1 m3(.sel({2'b00, sel[3]}), .a_in({2'b00, w}), .out(out));
+	Mux_8x1 m1(.clk(clk), .sel(sel[2:0]), .a_in(a_in[7:0]), .out(w[0]));
+	Mux_8x1 m2(.clk(clk), .sel(sel[2:0]), .a_in(a_in[15:8]), .out(w[1]));
+	Mux_8x1 m3(.sel({2'b00, sel[3]}), .a_in({6'b0, w}), .out(out));
 	
 
 endmodule

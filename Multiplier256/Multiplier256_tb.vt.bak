@@ -1,0 +1,25 @@
+module Multiplier256_tb();
+
+parameter WIDTH = 256;
+parameter N = 2;
+
+reg clk;
+reg [WIDTH-1:0] a,b;
+wire [2*WIDTH-1:0] prod;
+
+Multiplier256 #(.WIDTH(WIDTH), .N(N)) mul(.clk(clk),.a(a), .b(b), .prod(prod));
+
+always #5 clk = ~clk;
+
+initial begin
+	clk = 0;
+	$monitor($time, "Prod=%d",prod);
+	#5 a=256'b0000_0010; b=256'b0000_0000; //2x0
+	#5 a = 256'b0000_0010; b = 256'b0000_0001; //2x1
+	#5 a = 256'b0000_0010; b = 256'b0000_0010; // 2x2
+	#5 a = 256'b0000_0010; b = 256'b0000_0011; // 2x3
+	#5 a = 256'b0000_0010; b = 256'b0000_0100; // 2x4
+	#5 $finish;
+end
+
+endmodule

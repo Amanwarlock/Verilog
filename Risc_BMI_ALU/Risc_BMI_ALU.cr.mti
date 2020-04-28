@@ -1,44 +1,9 @@
-C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Alu
-
-Top level modules:
-	Alu
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v
+C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity_8bit.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Parity_8bit
 
 Top level modules:
 	Parity_8bit
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Alu_testbench
-
-Top level modules:
-	Alu_testbench
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Popcount_32bit
-
-Top level modules:
-	Popcount_32bit
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Rotr
-
-Top level modules:
-	Rotr
-
-} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module Mux256x1
-
-Top level modules:
-	Mux256x1
 
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -54,11 +19,104 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	Rotl
 
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Alu
+
+Top level modules:
+	Alu
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Alu_testbench
+
+Top level modules:
+	Alu_testbench
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Bitreverse.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Bitreverse.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Bitreverse
+
+Top level modules:
+	Bitreverse
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount_32bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Popcount_32bit
+
+Top level modules:
+	Popcount_32bit
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_2x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_2x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_2x1
+
+Top level modules:
+	Mux_2x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_64x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_64x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_64x1
+
+Top level modules:
+	Mux_64x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_4x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_4x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_4x1
+
+Top level modules:
+	Mux_4x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_32x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_32x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_32x1
+
+Top level modules:
+	Mux_32x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_256x1
+
+Top level modules:
+	Mux_256x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt {2 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_256x1_tb
+** Warning: C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt(34): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	Mux_256x1_tb
+
 } {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Parity.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module Parity
 
 Top level modules:
 	Parity
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_16x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_16x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_16x1
+
+Top level modules:
+	Mux_16x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_8x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_8x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_8x1
+
+Top level modules:
+	Mux_8x1
+
+} {} {}} C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_128x1.v {1 {vlog -work work -stats=none C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_128x1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux_128x1
+
+Top level modules:
+	Mux_128x1
 
 } {} {}}

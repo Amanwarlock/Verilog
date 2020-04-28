@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vMux_128x1
-Z0 !s110 1586803765
+Z0 !s110 1586839959
 !i10b 1
-!s100 6E=3Y2mf;nQme]Kb72b6B2
-Iz9:ElRWT^HHjfYC`Y[IfZ1
+!s100 Iz<I0QbR;f_n`fPV1>g>=0
+I7T45:UzFZZezQaN_X[RMN3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/aman/Workspace/Verilog/Mux_256bits
-w1586790695
+w1586805984
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1.v
 L0 4
@@ -23,7 +23,7 @@ Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1586803765.000000
+Z4 !s108 1586839958.000000
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1.v|
 !s101 -O0
@@ -33,11 +33,11 @@ n@mux_128x1
 vMux_128x1_vt
 R0
 !i10b 1
-!s100 K4b1c[5jBA;beDcI@BLVe0
-ID^GjnoQ4bSB_NZSLL^i7]3
+!s100 z561^ASLdM:?ThQif5oaW0
+I_R7CRQU4RJVMMRl=;[;hT2
 R1
 R2
-w1586790800
+w1586806011
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt
 L0 2
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z6 !s108 1586839959.000000
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_128x1_tb.vt|
 !s101 -O0
@@ -53,13 +53,13 @@ R4
 R5
 n@mux_128x1_vt
 vMux_16x1
-Z6 !s110 1586803764
+Z7 !s110 1586839958
 !i10b 1
-!s100 RGESnlNU?g?k>8`SBbI]k0
-IBIA;eEiiD5K3`LGc9i8k31
+!s100 jz8NP@[NDY`mB3E@LX^Bh0
+IC_0<:jFH]PiDW:_H`A5]73
 R1
 R2
-w1586789567
+w1586805684
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v
 L0 3
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-Z7 !s108 1586803764.000000
+R4
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1.v|
 !s101 -O0
@@ -75,13 +75,13 @@ Z7 !s108 1586803764.000000
 R5
 n@mux_16x1
 vMux_16x1_vt
-R0
+R7
 !i10b 1
-!s100 h[7ed2QaWB1Yf?Fk9=bTk2
-I]FNZiY65dU=ec1:RYRBcH0
+!s100 jCzWDZQ8fJWzSNW[_@gTU3
+IR;:6A^GfE9U7;RzHS59H@3
 R1
 R2
-w1586789720
+w1586805725
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.vt
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_16x1_tb.vt
 L0 2
@@ -99,11 +99,11 @@ n@mux_16x1_vt
 vMux_256x1
 R0
 !i10b 1
-!s100 FJP;POLI7JfU;koNMKzcg3
-I4VHo0^S[7a=[>j<Zm2z[E3
+!s100 kjOnOzHFO`db^n?a<Zh>J1
+IG7TPhdK3cPT:1LKO99aG93
 R1
 R2
-w1586791549
+w1586839895
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v
 L0 5
@@ -111,7 +111,7 @@ R3
 r1
 !s85 0
 31
-R4
+R6
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1.v|
 !s101 -O0
@@ -119,13 +119,13 @@ R4
 R5
 n@mux_256x1
 vMux_256x1_tb
-!s110 1586803766
+R0
 !i10b 1
-!s100 5nN0D@@^Hg<8]kWReb9AY0
-I;baB4@LL=BS@SJgTHR[=_1
+!s100 FEeC<:_5K:IbPRa64k[E90
+I^8BQ4>AY4Q_aAX4izlncQ2
 R1
 R2
-w1586791040
+w1586806093
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v
 L0 2
@@ -133,7 +133,7 @@ R3
 r1
 !s85 0
 31
-!s108 1586803766.000000
+R6
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_256x1_tb.v|
 !s101 -O0
@@ -141,13 +141,13 @@ r1
 R5
 n@mux_256x1_tb
 vMux_2x1
-R6
+!s110 1586839957
 !i10b 1
-!s100 aO@QL8Ab1E4IZE@hZl2_V1
-IJI24HozEQLM?h0:F[KmP[3
+!s100 ^jNSE=?YQM><f4j]ON[U_2
+I]^kKD?m2GAPNAROB0kFDH3
 R1
 R2
-w1586788462
+w1586805589
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1.v
 L0 2
@@ -155,7 +155,7 @@ R3
 r1
 !s85 0
 31
-R7
+!s108 1586839957.000000
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_2x1.v|
 !s101 -O0
@@ -163,13 +163,13 @@ R7
 R5
 n@mux_2x1
 vMux_32x1
-R0
+R7
 !i10b 1
-!s100 C5TGKgLfLUmIIai[AT@CI3
-I`kNXjLhkdh>C^8R3<e[4l1
+!s100 LWn15YF;X=K9MHYSI3X:g0
+IVRXO7]GXgE?APJ>nJaKAz1
 R1
 R2
-w1586789950
+w1586805805
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1.v
 L0 3
@@ -185,13 +185,13 @@ R4
 R5
 n@mux_32x1
 vMux_32x1_vt
-R0
+R7
 !i10b 1
-!s100 ez9U`@=JXWMC`;aDB:lbl3
-IOYWQPDM7kF^PaP2keDYjn0
+!s100 oN1_BMYO7UKSSSMkc4;BK1
+IJB2]B@ooHP0Z07]0nl`Sm3
 R1
 R2
-w1586790361
+w1586805828
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1_tb.vt
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_32x1_tb.vt
 L0 2
@@ -207,13 +207,13 @@ R4
 R5
 n@mux_32x1_vt
 vMux_4x1
-R6
+R7
 !i10b 1
-!s100 82mSZB>oFfCih=4BKIUXY1
-IoJVTPf5oHNeHZ<?F2OMiE1
+!s100 Gc04g2PD?6APziNTn3`YQ3
+I:Jh0gM8B60GN;5HAPKVA?0
 R1
 R2
-w1586788635
+w1586805261
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v
 L0 2
@@ -221,7 +221,7 @@ R3
 r1
 !s85 0
 31
-R7
+R4
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_4x1.v|
 !s101 -O0
@@ -229,13 +229,13 @@ R7
 R5
 n@mux_4x1
 vMux_64x1
-R0
+R7
 !i10b 1
-!s100 bf^8Y<n;kSmVAF8>R0YR41
-I<cmQ:LP`Q`O@9^aE;0TFQ3
+!s100 hJTN6E0cj=aXjCA2UWF3;3
+I`_f1<n@`]nCOg_C<ToD^[2
 R1
 R2
-w1586803730
+w1586805873
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1.v
 L0 4
@@ -251,13 +251,13 @@ R4
 R5
 n@mux_64x1
 vMux_64x1_vt
-R0
+R7
 !i10b 1
-!s100 S]kcBNfWJZjOS9MNe7cXj3
-I1Q_2m@C8i]0EbBMfKiLU23
+!s100 PDM]:fla[gkAP=N26Y`Rz2
+Iz>jI4jzd_:ZS7MB@29AfH1
 R1
 R2
-w1586790445
+w1586805900
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_64x1_tb.vt
 L0 2
@@ -273,13 +273,13 @@ R4
 R5
 n@mux_64x1_vt
 vMux_8x1
-R6
+R7
 !i10b 1
-!s100 ]PZ24HUBoH11hh_A]QARI0
-I=lCXmZ9h3FgBW9jhA`iUG0
+!s100 hSSzDC<CR@[MT?_?enhC=3
+If0QRa3Kg[9BS[9j?IIl3l1
 R1
 R2
-w1586788771
+w1586805297
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1.v
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1.v
 L0 2
@@ -287,7 +287,7 @@ R3
 r1
 !s85 0
 31
-R7
+R4
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1.v|
 !s101 -O0
@@ -295,13 +295,13 @@ R7
 R5
 n@mux_8x1
 vMux_8x1_vt
-R6
+R7
 !i10b 1
-!s100 zA2nkE@U?JgQUTGT=H:_h3
-IPRW]8HHf6dDDN^8SZaQA10
+!s100 ;Q>`KIl6hRGBhWTKFzNE=3
+IzzgW0FV5g3l;D3[a]bHdD0
 R1
 R2
-w1586789221
+w1586805442
 8C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt
 FC:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt
 L0 2
@@ -309,7 +309,7 @@ R3
 r1
 !s85 0
 31
-R7
+R4
 !s107 C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Mux_256bits/Mux_8x1_tb.vt|
 !s101 -O0

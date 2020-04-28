@@ -1,11 +1,12 @@
 
 module Mux_16x1_vt();
 
+reg clk;
 reg [3:0] sel;
 reg [15:0] a_in;
 wire y;
 
-Mux_16x1 mu(.sel(sel), .a_in(a_in), .out(y));
+Mux_16x1 mu(.clk(clk), .sel(sel), .a_in(a_in), .out(y));
 
 initial begin
 	$monitor($time, " Select = %b, Input = %b, Result = %b ", sel, a_in, y);
@@ -22,6 +23,7 @@ initial begin
 	#5 sel = 4'b1010;
 	#5 sel = 4'b1100;
 	#5 sel = 4'b1101;
+	#5 sel = 4'b1111;
 	#5 $finish;
 end
 

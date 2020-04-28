@@ -20,7 +20,7 @@ reg parity_enable, popcount_enable, rotl_enable, rotr_enable;
 
 reg [DATA_WIDTH-1:0] result, parity_in, popcount_in, rotl_in, rotr_in;
 
-always @(clk,opcode) begin 
+always @(clk) begin 
 	case(opcode)
 		PARITY: begin
 			parity_enable = 1'b1;

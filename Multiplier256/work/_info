@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU
+vMultiplier256
+Z0 !s110 1587135845
+!i10b 1
+!s100 1aWfVK1lQQ@D22eY=CIio2
+IFP2CCBHIJCMoZFQaEUhjI1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/aman/Workspace/Verilog/Multiplier256
+w1587135843
+8C:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256.v
+FC:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1587135845.000000
+!s107 C:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@multiplier256
+vMultiplier256_tb
+R0
+!i10b 1
+!s100 lUQbXn0C4@Oco]F3AM^0<0
+I[UhNafkT35SZohiVG48?P2
+R1
+R2
+w1586962659
+8C:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256_tb.vt
+FC:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256_tb.vt
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256_tb.vt|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Multiplier256/Multiplier256_tb.vt|
+!s101 -O0
+!i113 1
+R5
+n@multiplier256_tb

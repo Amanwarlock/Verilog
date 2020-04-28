@@ -1,13 +1,17 @@
 
 module Mux_256x1_tb();
 
+reg clk;
 reg [7:0] sel;
 reg [255:0] a_in;
 wire y;
 
-Mux_256x1 mu(.sel(sel), .a_in(a_in), .out(y));
+Mux_256x1 mu(.clk(clk), .sel(sel), .a_in(a_in), .out(y));
+
+always #5 clk = ~clk;
 
 initial begin
+	clk = 0;
 	$monitor($time, " Select = %b, Input = %b, Result = %b ", sel, a_in, y);
 	#5 sel = 8'b000; a_in = 255'b1010_0011;
 	#5 sel = 8'b001;

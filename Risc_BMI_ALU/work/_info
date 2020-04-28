@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vAlu
-Z0 !s110 1586604206
+Z0 !s110 1587095849
 !i10b 1
-!s100 VD21;[QgdG]ON6fJcWG9[3
-I=h33oCVV<Z0U::7=Lm7Me3
+!s100 oi3dJLlTcQ>z1Nf`0eJXQ3
+IHHoY:?nVB[e>Wh9W1ZzDR3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU
-w1585905778
+w1587093907
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v
 L0 5
@@ -23,7 +23,7 @@ Z3 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1586604206.000000
+Z4 !s108 1587095849.000000
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu.v|
 !s101 -O0
@@ -31,13 +31,13 @@ Z4 !s108 1586604206.000000
 Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 n@alu
 vAlu_testbench
-Z6 !s110 1586604207
+Z6 !s110 1587095850
 !i10b 1
 !s100 NBH<bhCEPMH;0WmbVZ_0a0
 If2Weh3SlXg23Ug`JR6eR:0
 R1
 R2
-w1586604194
+w1586837953
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt
 L0 2
@@ -45,15 +45,37 @@ R3
 r1
 !s85 0
 31
-Z7 !s108 1586604207.000000
+Z7 !s108 1587095850.000000
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Alu_tb.vt|
 !s101 -O0
 !i113 1
 R5
 n@alu_testbench
+vBitreverse
+Z8 !s110 1587095851
+!i10b 1
+!s100 B`gmaQfUhAVS<E5Ca?GfV3
+I5CZXDL[7Yfl9?`U[XHo=E2
+R1
+R2
+w1586809774
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Bitreverse.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Bitreverse.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1587095851.000000
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Bitreverse.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Bitreverse.v|
+!s101 -O0
+!i113 1
+R5
+n@bitreverse
 vMux16x1
-Z8 !s110 1586506824
+Z10 !s110 1586506824
 !i10b 1
 !s100 FnJ`j1a^XR6b>aU3bC8H[2
 IV=Gg;=2aP?04Ig`@_LY5<3
@@ -67,7 +89,7 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1586506824.000000
+Z11 !s108 1586506824.000000
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux16x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux16x1.v|
 !s101 -O0
@@ -75,7 +97,7 @@ Z9 !s108 1586506824.000000
 R5
 n@mux16x1
 vMux256x1
-R6
+!s110 1586604207
 !i10b 1
 !s100 >e8370=_5DR4NhJ4<cB:03
 IG;_;EHYdb8GSc:L@K[Le?3
@@ -89,7 +111,7 @@ R3
 r1
 !s85 0
 31
-R7
+!s108 1586604207.000000
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux256x1.v|
 !s101 -O0
@@ -97,7 +119,7 @@ R7
 R5
 n@mux256x1
 vMux2x1
-R8
+R10
 !i10b 1
 !s100 CmS:<oQ^Ri;PEQ[6<XSc92
 IfAFBZH:ic5fMd7MPEC^YF0
@@ -111,7 +133,7 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux2x1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux2x1.v|
 !s101 -O0
@@ -119,7 +141,7 @@ R9
 R5
 n@mux2x1
 vMux4x2
-R8
+R10
 !i10b 1
 !s100 Q]XaSW86@GbNddjg7>I1h2
 I<2nSalYZdcV;g1JJ;E=440
@@ -133,13 +155,211 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux4x2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux4x2.v|
 !s101 -O0
 !i113 1
 R5
 n@mux4x2
+vMux_128x1
+R6
+!i10b 1
+!s100 C>V;z>;kGD7NYbPMP7]mZ2
+I=?jEdXT6o44bQ]mCkkTZ`1
+R1
+R2
+w1586806312
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_128x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_128x1.v
+L0 3
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_128x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_128x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_128x1
+vMux_16x1
+R8
+!i10b 1
+!s100 McH2Jm2AeOJ?a2?nWk]X12
+IHofT>7AhAD[o@8A:RHb5h0
+R1
+R2
+w1586845106
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_16x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_16x1.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_16x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_16x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_16x1
+vMux_256x1
+R6
+!i10b 1
+!s100 MeBj^H^k1lk9AbY5eALSX3
+IEHgBe[gID53J2?SRo@I>K2
+R1
+R2
+w1586892512
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_256x1
+vMux_256x1_tb
+R8
+!i10b 1
+!s100 FF8kkOL6=EJ9N=RE8L0A33
+Ii;fC^ea>K0gz_EmMTf4dM1
+R1
+R2
+w1586844276
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_256x1_tb.vt|
+!s101 -O0
+!i113 1
+R5
+n@mux_256x1_tb
+vMux_2x1
+R8
+!i10b 1
+!s100 ^jNSE=?YQM><f4j]ON[U_2
+I=L0SoC;<N9aQ6eD4V09[W2
+R1
+R2
+w1586879443
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_2x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_2x1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_2x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_2x1
+vMux_32x1
+R8
+!i10b 1
+!s100 LWn15YF;X=K9MHYSI3X:g0
+Iam6lU^]=_;DWjBiD[KdZ^2
+R1
+R2
+w1586806371
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_32x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_32x1.v
+L0 3
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_32x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_32x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_32x1
+vMux_4x1
+R8
+!i10b 1
+!s100 Gc04g2PD?6APziNTn3`YQ3
+IK7AnFFRM8VMXJZiOFMjHJ2
+R1
+R2
+w1586806447
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_4x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_4x1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_4x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_4x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_4x1
+vMux_64x1
+R6
+!i10b 1
+!s100 fLVJT=OjVcn=YC=LA`hV>1
+I0S5:?[<8AiMomA07R<_LX3
+R1
+R2
+w1586844045
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_64x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_64x1.v
+L0 4
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_64x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_64x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_64x1
+vMux_8x1
+R8
+!i10b 1
+!s100 hSSzDC<CR@[MT?_?enhC=3
+I^312cYgVCi:nkPiODS3Vd0
+R1
+R2
+w1586806424
+8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_8x1.v
+FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_8x1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_8x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Mux_8x1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux_8x1
 vParity
 R0
 !i10b 1
@@ -187,11 +407,11 @@ n@parity_8bit
 vPopcount
 R6
 !i10b 1
-!s100 @eE]hWgMNB=RWh1i23IY92
-Ijz@K?RV<U]5B3bPzgU@lC2
+!s100 GleZhoj@02^HGDdDE^DEa2
+I0b<laI9T_L0G[=IY9g`Gj2
 R1
 R2
-w1585955740
+w1586808497
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Popcount.v
 L0 2
@@ -231,11 +451,11 @@ n@popcount_32bit
 vRotl
 R0
 !i10b 1
-!s100 h=9O;gN7?dQZWP^UIM5RZ1
-Ih@PHATYhSh`;=Rj1zn<E?2
+!s100 R?ZdSRnU^J?IJnZWJDjOA0
+Ii6BYmS=@WmW3KhM6LnhTT2
 R1
 R2
-w1586604123
+w1587095847
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotl.v
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotl.v
 L0 3
@@ -251,13 +471,13 @@ R4
 R5
 n@rotl
 vRotr
-R0
+R6
 !i10b 1
-!s100 @<E4o7FQCLE^lhTJf7=UN1
-I1_geme]L406k3PAKAU`ic0
+!s100 5ma;HlnhW97ITm1FUX7jm3
+I;dd[7haZ;AW>2FX6]CH]91
 R1
 R2
-w1586596355
+w1587094669
 8C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
 FC:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v
 L0 3
@@ -265,7 +485,7 @@ R3
 r1
 !s85 0
 31
-R4
+R7
 !s107 C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/aman/Workspace/Verilog/Risc_BMI_ALU/Rotr.v|
 !s101 -O0
